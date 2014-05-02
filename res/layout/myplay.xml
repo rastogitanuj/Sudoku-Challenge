@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/PlayLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/mybackgroundcolor"
+    android:gravity="center"
+    android:orientation="vertical">
+    
+    <!--<Button
+        android:id="@+id/buttonresume"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.1"
+        android:background="#aa010f"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:text="@string/resume_label" />-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.1"
+        android:textColor="#eeeeee"
+        android:background="@color/play_padding_col"
+        android:textSize="20sp"
+        android:text="CHOOSE DIFFICULTY"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+	    android:layout_weight="0.20"
+	    android:orientation="horizontal">
+	    
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0px"
+            android:layout_weight="0.1"
+            android:background="@color/play_padding_col"/>
+	    
+	    <Button
+	        android:id="@+id/Button1"
+	        android:layout_width="0px"
+	        android:layout_weight="0.8"
+	        android:layout_height="match_parent"
+	        android:text="@string/easy_label"
+	        android:background="#ca010f"
+	        android:textSize="40sp"
+	        android:textColor="#000000"
+	         />
+	    
+	    <TextView
+	        android:layout_height="match_parent"
+            android:layout_width="0px"
+            android:layout_weight="0.1"
+            android:background="@color/play_padding_col"/>
+	  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+	    android:layout_weight="0.20"
+	    android:orientation="horizontal">
+	    
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0px"
+            android:layout_weight="0.1"
+            android:background="@color/play_padding_col"/>
+	    
+	    <Button
+	        android:id="@+id/Button2"
+	        android:layout_width="0px"
+	        android:layout_weight="0.8"
+	        android:layout_height="match_parent"
+	        android:text="@string/medium_label"
+	        android:background="#ba010f"
+	        android:textSize="40sp"
+	        android:textColor="#000000"
+	         />
+	    
+	    <TextView
+	        android:layout_height="match_parent"
+            android:layout_width="0px"
+            android:layout_weight="0.1"
+            android:background="@color/play_padding_col"/>
+	  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+	    android:layout_weight="0.20"
+	    android:orientation="horizontal">
+	    
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0px"
+            android:layout_weight="0.1"
+            android:background="@color/play_padding_col"/>
+	    
+	    <Button
+	        android:id="@+id/Button3"
+	        android:layout_width="0px"
+	        android:layout_weight="0.8"
+	        android:layout_height="match_parent"
+	        android:background="#aa010f"
+	        android:text="@string/hard_label"
+	        android:textSize="40sp"
+	        android:textColor="#000000"
+	         />
+	    
+	    <TextView
+	        android:layout_height="match_parent"
+            android:layout_width="0px"
+            android:layout_weight="0.1"
+            android:background="@color/play_padding_col"/>
+	   
+	  </LinearLayout>
+	  
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.1"
+        android:textColor="#eeeeee"
+        android:background="@color/play_padding_col"
+        android:gravity="center" />
+     
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/mybackgroundcolor"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+     <LinearLayout
+        android:id="@+id/LinearLayout1a"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.16"
+        android:orientation="horizontal" >
+
+		    <TextView
+		        android:layout_width="0px"
+		        android:layout_height="match_parent"
+		        android:layout_weight="0.4"
+		        android:background="#eeeeee"
+		        android:gravity="center"
+		        android:text="The Sudoku"
+		        android:textColor="#050571"
+		        android:textSize="@dimen/appnametext_size" />
+
+		    <ImageView
+		        android:id="@+id/imageView1"
+		        android:layout_width="0px"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_vertical"
+		        android:layout_weight="0.25"
+		        android:background="#eeeeee"
+		        android:src="@drawable/mysudoku" />
+		    
+		    <TextView
+		        android:layout_width="0px"
+		        android:layout_height="match_parent"
+		        android:layout_weight="0.35"
+		        android:background="#eeeeee"
+		        android:gravity="center"
+		        android:text="Challenge"
+		        android:textColor="#050571"
+		        android:textSize="@dimen/appnametext_size" />
+
+	</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1b"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.14"
+        android:orientation="horizontal" >    
+        
+        <LinearLayout 
+            android:id="@+id/LinearLayout1bi"
+            android:layout_width="0px"
+	        android:layout_weight="0.7"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_height="wrap_content"
+	            android:layout_width="match_parent"
+	            android:gravity="center"
+	            android:paddingLeft="10sp"
+	            android:paddingRight="10sp"
+	            android:textColor="#ffffff"
+	            android:background="#8a01ff"
+	            android:text="Current User"
+	            android:textSize="25sp" />
+	        <TextView
+	            android:id="@+id/usernameView"
+	            android:layout_height="match_parent"
+	            android:layout_width="match_parent"
+	            android:gravity="center"
+	            android:paddingLeft="10sp"
+	            android:paddingRight="10sp"
+	            android:textColor="#050571"
+	            android:background="#bbbbbb"
+	            android:text="Tanuj Rastogi"
+	            android:textSize="25sp" />
+	   	</LinearLayout>
+
+        <Button
+            android:id="@+id/buttonchange"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:background="#ab0571"
+            android:textColor="#ffffff"
+            android:text="@string/change_user_label"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonplay"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.14"
+        android:background="#aa010f"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="@string/play_label" />
+
+    <Button
+        android:id="@+id/buttonpractice"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.14"
+        android:background="#b2110f"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="@string/practice_label" />
+
+    <Button
+        android:id="@+id/buttonstats"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.14"
+        android:background="#ba210f"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="@string/stats_label" />
+    
+    <Button
+        android:id="@+id/buttonrules"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.14"
+        android:background="#c2310f"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="@string/rules_tips" />
+
+    <Button
+        android:id="@+id/buttonabout"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.14"
+        android:background="#ca410f"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="@string/about_label" />
+
+</LinearLayout>

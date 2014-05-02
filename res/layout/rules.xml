@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:padding="10dip"
+   android:orientation="vertical">
+   <TextView
+      android:id="@+id/about_content"
+      android:layout_width="fill_parent"
+      android:gravity="center"
+      android:layout_height="wrap_content"
+      android:textStyle="bold"
+      android:text="There are just 3 rules in Sudoku." />
+
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="1. Each row must have the numbers 1-9 occuring just once." />
+
+   <ImageView
+       android:id="@+id/imageView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:src="@drawable/horizontal" />
+
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="left"
+       android:text="2. Each column must have the numbers 1-9 occuring just once." />
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="match_parent" >
+
+       <ImageView
+           android:id="@+id/imageView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/vertical" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical" 
+           android:layout_marginTop="50dp">
+
+           <TextView
+               android:id="@+id/textView3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:text="3. And the numbers 1-9 must occur just once in each of the 9 sub-boxes of the grid." />
+
+           <ImageView
+               android:id="@+id/imageView3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:src="@drawable/square" />
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+</LinearLayout>
